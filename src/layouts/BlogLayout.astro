@@ -7,13 +7,13 @@ const { frontmatter } = Astro.props;
 <BaseLayout>
   <section>
     <div class="py-24">
-      <div class="max-w-xl mx-auto">
+      <div class="">
         <h1
           class="text-4xl text-balance font-medium font-display text-base-900"
         >
           {frontmatter.title}
         </h1>
-        <p class="max-w-2xl mx-auto mt-4 text-zinc-500 text-sm text-balance">
+        <p class="mt-4 text-zinc-500 text-sm text-balance">
           <em>{frontmatter.description}</em>
         </p>
       </div>
